@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>📥 Excel to Database | Nikhil Singh</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📥 Upload Excel & Save to DB</h1>
+    <p class="subtitle">Let’s make data beautiful & meaningful 📊</p>
+
+    <div class="upload-card">
+      <div class="icon">📁</div>
+      <input type="file" id="excelFile" accept=".xlsx, .xls" />
+      <button onclick="uploadFile()">🚀 Upload Excel File</button>
+      <div id="loader" class="loader" style="display: none;"></div>
+      <p id="message" class="message"></p>
+    </div>
+  </div>
+
+  <footer>✨ Created with ❤️ by <strong>Nikhil Singh</strong></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
